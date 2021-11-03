@@ -10,6 +10,6 @@ public class Hija_Deposito extends Clase_Padre
         transacciones=getSaldo();
         setSaldo(deposito+transacciones);
         System.out.println("Valor del deposito es: "+ deposito);
-        System.out.println("Valor del saldo actual es: "+ getSaldo());
+        System.out.println("Saldo actual: "+ getSaldo());
     }
 }
