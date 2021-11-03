@@ -16,7 +16,7 @@ public class Hija_Retiro extends Clase_Padre
             System.out.println("Valor del saldo actual es: "+ getSaldo());
         }
         else
-            System.out.println("No cuenta con fondos ");
+            System.out.println("No tiene fondos ");
 
 
     }
